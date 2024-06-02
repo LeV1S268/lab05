@@ -14,5 +14,9 @@ jobs:
           cmake -H. -B_build -DBUILD_TESTS=ON
           cmake --build _build
           cmake --build _build --target test -- ARGS=--verbose
+      - name: npm install, make test-coverage
+        run: |
+          npm install
+          make test-coverage
       - name: Code coverage
         uses: threeal/gcovr-action@v1.0.0
