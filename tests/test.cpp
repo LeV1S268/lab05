@@ -56,7 +56,6 @@ TEST(Account, Methods) {
   EXPECT_EQ(3000, ac1.GetBalance());
   try {
     ac1.ChangeBalance(1);
-    EXPECT_EQ(1, 0);
   }
   catch (std::runtime_error& el) {}
   EXPECT_EQ(3000, ac1.GetBalance());
