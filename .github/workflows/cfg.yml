@@ -16,7 +16,7 @@ jobs:
           cmake --build _build --target test -- ARGS=--verbose
       - name: Generate and send a code coverage report to Coveralls
         uses: threeal/gcovr-action@v1.0.0
-        excludes: third-party
         with:
+          excludes: third-party
           coveralls-send: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
