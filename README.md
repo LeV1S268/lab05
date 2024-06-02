@@ -6,4 +6,5 @@
 3. Настройте сборочную процедуру на **GitHub Actions**
 4. Настройте Coveralls.io.
 
-[![Coverage Status](https://coveralls.io/repos/github/VadimSmD/lab05/badge.svg)](https://coveralls.io/github/VadimSmD/lab05?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/LeV1S268/lab05/badge.svg?branch=master)](https://coveralls.io/github/LeV1S268/lab05?branch=master)
+
